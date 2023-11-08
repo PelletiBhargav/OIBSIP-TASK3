@@ -1,0 +1,49 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-image: url('os.png');
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  main {
+    background-image: url("5605216.jpg");
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .feature {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
